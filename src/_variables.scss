@@ -1,0 +1,72 @@
+@import "~bulma/sass/utilities/_all";
+
+
+$background: $black-ter;
+$primary: $green;
+
+// @import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins&display=swap');
+
+$title-family: 'Poppins', sans-serif;
+$family-primary: 'Courier Prime', monospace;
+
+// // Set your colors
+// $primary: #2d3092;
+$primary-invert: findColorInvert($primary);
+$scheme-main: $black-ter;
+$scheme-main-bis: $black-bis;
+
+$background: $black-ter;
+$body-background-color: $black;
+$text: $white-ter;
+$text-strong: $white-bis;
+
+$card-radius: 100px;
+
+$link-hover: $white-ter;
+$link-hover-border: $grey-darker;
+$link-focus: $white-ter;
+$link-active: $white-ter;
+// $link-active: $link-hover;
+
+
+// $bright-blue: #103cdf;
+// $bright-blue-invert: findColorInvert($bright-blue);
+
+// $light-blue: #f1f1fd;
+// $light-blue-invert: findColorInvert($light-blue);
+
+// $moksha-yellow: #fac330;
+// $moksha-yellow-invert: findColorInvert(#fac330);
+
+// $warning: $moksha-yellow;
+// $warning-invert: $moksha-yellow-invert;
+// $warning-light: findLightColor($moksha-yellow);
+// $warning-dark: findLightColor($moksha-yellow);
+
+
+// // Links
+// $link: $bright-blue;
+// $link-invert: $bright-blue-invert;
+// $link-focus-border: $bright-blue;
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter'
+$colors: mergeColorMaps((
+        // "white": ($white, $black),
+        // "black": ($black, $white),
+        // "light": ($light-blue, $light-blue-invert),
+        // "dark": ($dark, $dark-invert),
+        "primary": ($primary, $primary-invert),
+        // "link": ($link, $link-invert, $link-light, $link-dark),
+        // "info": ($info, $info-invert, $info-light, $info-dark),
+        // "success": ($success, $success-invert, $success-light, $success-dark),
+        // "warning": ($warning, $warning-invert, $warning-light, $warning-dark),
+        // "danger": ($danger, $danger-invert, $danger-light, $danger-dark)
+        ),
+        $custom-colors
+);
+
+
+// :export {
+//   primary: $primary;
+// }
