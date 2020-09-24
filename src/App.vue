@@ -1,10 +1,14 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
     <router-view/>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Games created by students in <a target="_blank" href="https://creekcoding.com">Creek Coding's</a>
+          &nbsp;<a target="_blank" href="https:cs101.creekcoding.com">Comp Sci 101 Course</a>
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
