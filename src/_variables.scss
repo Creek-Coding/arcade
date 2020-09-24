@@ -51,20 +51,20 @@ $link-active: $white-ter;
 // $link-focus-border: $bright-blue;
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter'
-$colors: mergeColorMaps((
-        // "white": ($white, $black),
-        // "black": ($black, $white),
-        // "light": ($light-blue, $light-blue-invert),
-        // "dark": ($dark, $dark-invert),
-        "primary": ($primary, $primary-invert),
-        // "link": ($link, $link-invert, $link-light, $link-dark),
-        // "info": ($info, $info-invert, $info-light, $info-dark),
-        // "success": ($success, $success-invert, $success-light, $success-dark),
-        // "warning": ($warning, $warning-invert, $warning-light, $warning-dark),
-        // "danger": ($danger, $danger-invert, $danger-light, $danger-dark)
-        ),
-        $custom-colors
-);
+// $colors: mergeColorMaps((
+//         // "white": ($white, $black),
+//         // "black": ($black, $white),
+//         // "light": ($light-blue, $light-blue-invert),
+//         // "dark": ($dark, $dark-invert),
+//         "primary": ($primary, $primary-invert),
+//         // "link": ($link, $link-invert, $link-light, $link-dark),
+//         // "info": ($info, $info-invert, $info-light, $info-dark),
+//         // "success": ($success, $success-invert, $success-light, $success-dark),
+//         // "warning": ($warning, $warning-invert, $warning-light, $warning-dark),
+//         // "danger": ($danger, $danger-invert, $danger-light, $danger-dark)
+//         ),
+//         $custom-colors
+// );
 
 
 // :export {

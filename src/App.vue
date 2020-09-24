@@ -19,7 +19,7 @@ export default {
         author: "Thida Lay-Sok and Garv Kinariwala",
         description: "Test your knowledge in this trivia quiz!",
         id: "000001",
-        url: "https://repl.it/@GarvK/Bunny-20?lite=true&outputonly=true&theme=dark",
+        url: "https://repl.it/@GarvK/Bunny-20?lite=true&outputonly=true",
       },
       {
         name: "Madam Maddens Perfect Potions Shop",
