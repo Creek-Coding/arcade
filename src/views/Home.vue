@@ -16,7 +16,7 @@
         <div class="tile is-ancestor">
           <div v-for="(column, i) in dataSplit" class="tile is-4 is-vertical is-parent" :key="i">
             <div v-for="item in column" :key="item.id" class="tile is-child card zoom">
-              <router-link :to="'/game/' + item.id" v-slot="{ href, route, navigate }">
+              <router-link :to="'/game/' + item.id" v-slot="{ href, route, navigate }" class="fill-height">
                 <div class @click="navigate">
                   <div class="card-content">
                     <div>
@@ -80,5 +80,9 @@ export default {
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+.fill-height{
+  height: 100%;
 }
 </style>
